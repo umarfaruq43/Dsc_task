@@ -25,6 +25,19 @@ nav {
   background-color: #3b449f;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+nav ul li{
+list-style-type: none;
+display: inline;
+
+}
+nav ul li a{
+  display: inline;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
 }
 main {
   padding: 1rem;
@@ -56,8 +69,8 @@ main {
 
 .projects p {
   font-size: 1.5rem;
-  width: 290px;
-  font-weight: bold;
+  width: 230px;
+  
 }
 form input {
   width: 50%;
