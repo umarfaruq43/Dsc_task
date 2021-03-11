@@ -1,0 +1,17 @@
+@media screen and (min-width: 767.99px) {
+  .projects {
+    width: 80%;
+    padding-top: 5rem;
+
+    margin: 0 auto;
+  }
+  .projects .col {
+    width: 50%;
+  }
+  .col_last {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
